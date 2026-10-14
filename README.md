@@ -1,5 +1,7 @@
 # 灵犀按键自定义
 
+> **仅支持 OPPO K15 系列机型**（已在 OPPO K15 Pro+ / ColorOS 16 / Android 16 上验证，其它机型按键拦截点不同，可能无法生效）
+
 当初就是冲着 OPPO K15 Pro+ 的造型买的，到手最喜欢侧面那颗「灵犀」按键，结果发现它能干的事太少，于是自己写了个 App。
 
 基于 [SlimeNull/OppoCustomSideButtonFunctions](https://github.com/SlimeNull/OppoCustomSideButtonFunctions) 二次开发，感谢原作者铺路！
@@ -14,6 +16,13 @@
 - 首页显示 Root 与框架激活状态，可一键跳转修复 / 软重启
 - 高级设置：作用域检查与一键申请、配置 JSON 导入 / 导出
 - 游戏内自动放行原厂灵犀行为
+
+## 适用机型
+
+- OPPO K15 系列（K15 Pro+ 实测可用）
+- 系统：ColorOS 16 / Android 16
+- Root：KernelSU（本机为晚加载 + GhostLock 激活）
+- 框架：Vector 或 LSPosed
 
 ## 安装
 
